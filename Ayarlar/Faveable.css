@@ -897,9 +897,10 @@ body {
     vertical-align: middle;
 }
 
-@media only screen and (min-width:768px) and (max-width:886px) {
+@media only screen and (min-width:768px) {
     .img-cls {
         height: 100%;
+        min-height: 400px;
         max-height: 400px;
     }
 }
@@ -907,6 +908,7 @@ body {
 @media only screen and (min-width:710px) and (max-width:767px) {
     .img-cls {
         height: 100%;
+        min-height: 370px;
         max-height: 370px;
     }
 }
@@ -914,6 +916,7 @@ body {
 @media only screen and (min-width:681px) and (max-width:709px) {
     .img-cls {
         height: 100%;
+        min-height: 340px;
         max-height: 340px;
     }
 }
@@ -922,13 +925,31 @@ body {
     .img-cls {
         height: 100%;
         max-height: 300px;
+        min-height: 300px;
     }
 }
 
-@media only screen and (max-width:575px) {
+@media only screen and (min-width:401px) and (max-width:575px) {
     .img-cls {
         height: 100%;
         max-height: 250px;
+        min-height: 250px;
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width:400px) {
+    .img-cls {
+        height: 100%;
+        max-height: 200px;
+        min-height: 200px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .img-cls {
+        height: 100%;
+        max-height: 150px;
+        min-height: 100px;
     }
 }
 
@@ -2777,26 +2798,52 @@ input[type="text"] {
     text-align: center;
 }
 
-.best-img-div-grid {
-    display: flex;
-    width: 100%;
-    min-width: 100%;
-    max-width: 100%;
-    height: auto;
-    min-height: 148.5px;
-    overflow: hidden;
-    padding-top: 50%;
-    position: relative;
-    z-index: 1;
-    margin: 0px;
-    border: none;
-    outline: none;
-    background: transparent;
-    color: #000;
-    font-family: "Roboto", sans-serif;
-    font-size: 17.5px;
-    font-weight: 500;
-    text-align: center;
+@media only screen and (max-width:992px) {
+    .best-img-div-grid {
+        display: flex;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        height: auto;
+        min-height: 148.5px;
+        overflow: hidden;
+        padding-top: 50%;
+        position: relative;
+        z-index: 1;
+        margin: 0px;
+        border: none;
+        outline: none;
+        background: transparent;
+        color: #000;
+        font-family: "Roboto", sans-serif;
+        font-size: 17.5px;
+        font-weight: 500;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:993px) {
+    .best-img-div-grid {
+        display: flex;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        height: auto;
+        min-height: 148.5px;
+        max-height: 148.5px;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        margin: 0px;
+        border: none;
+        outline: none;
+        background: transparent;
+        color: #000;
+        font-family: "Roboto", sans-serif;
+        font-size: 17.5px;
+        font-weight: 500;
+        text-align: center;
+    }
 }
 
 .best-img-div-grid>a {
@@ -3349,4 +3396,41 @@ a.color-beauty-categori:link {
 
 div.flex-div-grid-beauty {
     background-color: #d68fff;
+}
+
+.color-fitness {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 0px;
+    padding-bottom: 20px;
+    margin: 0px;
+    border: none;
+    background-color: transparent;
+    color: #3eabff;
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+div.color-fitness-categori,
+a.color-fitness-categori,
+a.color-fitness-categori:visited,
+a.color-fitness-categori:active,
+a.color-fitness-categori:link {
+    color: #3eabff;
+}
+
+#active-color-fitness {
+    border-bottom-color: #3eabff;
+    color: #3eabff;
+}
+
+.text-div-a-class>a.fitness-color-a-tag {
+    background-color: #3eabff;
+}
+
+div.flex-div-grid-fitness {
+    background-color: #3eabff;
 }
