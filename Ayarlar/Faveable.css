@@ -3276,3 +3276,40 @@ a.color-home-categori:link {
 div.flex-div-grid-home {
     background-color: #ff9900;
 }
+
+.color-kids {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 0px;
+    padding-bottom: 20px;
+    margin: 0px;
+    border: none;
+    background-color: transparent;
+    color: #73afab;
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+div.color-kids-categori,
+a.color-kids-categori,
+a.color-kids-categori:visited,
+a.color-kids-categori:active,
+a.color-kids-categori:link {
+    color: #73afab;
+}
+
+#active-color-kids {
+    border-bottom-color: #73afab;
+    color: #73afab;
+}
+
+.text-div-a-class>a.kids-color-a-tag {
+    background-color: #73afab;
+}
+
+div.flex-div-grid-kids {
+    background-color: #73afab;
+}
