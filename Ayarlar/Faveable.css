@@ -3313,3 +3313,40 @@ a.color-kids-categori:link {
 div.flex-div-grid-kids {
     background-color: #73afab;
 }
+
+.color-beauty {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 0px;
+    padding-bottom: 20px;
+    margin: 0px;
+    border: none;
+    background-color: transparent;
+    color: #d68fff;
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+div.color-beauty-categori,
+a.color-beauty-categori,
+a.color-beauty-categori:visited,
+a.color-beauty-categori:active,
+a.color-beauty-categori:link {
+    color: #d68fff;
+}
+
+#active-color-beauty {
+    border-bottom-color: #d68fff;
+    color: #d68fff;
+}
+
+.text-div-a-class>a.beauty-color-a-tag {
+    background-color: #d68fff;
+}
+
+div.flex-div-grid-beauty {
+    background-color: #d68fff;
+}
