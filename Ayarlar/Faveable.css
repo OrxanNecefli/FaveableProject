@@ -3575,3 +3575,59 @@ div.flex-div-grid-eat,
 div.flex-div-grid-tech {
     background-color: #65a6bb;
 }
+
+.color-dating-sex {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 0px;
+    padding-bottom: 20px;
+    margin: 0px;
+    border: none;
+    background-color: transparent;
+    color: #bb6585;
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+div.color-dating-sex-categori {
+    color: #bb6585;
+}
+
+.text-div-a-class>a.dating-sex-color-a-tag {
+    background-color: #bb6585;
+}
+
+div.flex-div-grid-dating-sex {
+    background-color: #bb6585;
+}
+
+.color-Entertainment {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 0px;
+    padding-bottom: 20px;
+    margin: 0px;
+    border: none;
+    background-color: transparent;
+    color: #ff9169;
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+div.color-Entertainment-categori {
+    color: #ff9169;
+}
+
+.text-div-a-class>a.Entertainment-color-a-tag {
+    background-color: #ff9169;
+}
+
+div.flex-div-grid-Entertainment {
+    background-color: #ff9169;
+}
