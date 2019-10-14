@@ -3434,3 +3434,40 @@ a.color-fitness-categori:link {
 div.flex-div-grid-fitness {
     background-color: #3eabff;
 }
+
+.color-grooming {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 0px;
+    padding-bottom: 20px;
+    margin: 0px;
+    border: none;
+    background-color: transparent;
+    color: #ffba92;
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+div.color-grooming-categori,
+a.color-grooming-categori,
+a.color-grooming-categori:visited,
+a.color-grooming-categori:active,
+a.color-grooming-categori:link {
+    color: #ffba92;
+}
+
+#active-color-grooming {
+    border-bottom-color: #ffba92;
+    color: #ffba92;
+}
+
+.text-div-a-class>a.grooming-color-a-tag {
+    background-color: #ffba92;
+}
+
+div.flex-div-grid-grooming {
+    background-color: #ffba92;
+}
