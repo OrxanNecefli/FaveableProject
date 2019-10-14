@@ -3471,3 +3471,40 @@ a.color-grooming-categori:link {
 div.flex-div-grid-grooming {
     background-color: #ffba92;
 }
+
+.color-outdoors {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 0px;
+    padding-bottom: 20px;
+    margin: 0px;
+    border: none;
+    background-color: transparent;
+    color: #6ed69a;
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+div.color-outdoors-categori,
+a.color-outdoors-categori,
+a.color-outdoors-categori:visited,
+a.color-outdoors-categori:active,
+a.color-outdoors-categori:link {
+    color: #6ed69a;
+}
+
+#active-color-outdoors {
+    border-bottom-color: #6ed69a;
+    color: #6ed69a;
+}
+
+.text-div-a-class>a.outdoors-color-a-tag {
+    background-color: #6ed69a;
+}
+
+div.flex-div-grid-outdoors {
+    background-color: #6ed69a;
+}
