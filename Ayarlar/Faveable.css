@@ -3508,3 +3508,25 @@ a.color-outdoors-categori:link {
 div.flex-div-grid-outdoors {
     background-color: #6ed69a;
 }
+
+a.color-special-categori,
+a.color-special-categori:visited,
+a.color-special-categori:active,
+a.color-special-categori:link {
+    color: #d42426;
+}
+
+.text-div-a-class>a.special-color-a-tag {
+    background-color: #d42426;
+}
+
+div.flex-div-grid-special {
+    background-color: #d42426;
+}
+
+@media only screen and (max-width:992px) {
+    #div-flex-one1,
+    #div-flex-one2 {
+        display: none;
+    }
+}
