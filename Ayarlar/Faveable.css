@@ -3509,10 +3509,23 @@ div.flex-div-grid-outdoors {
     background-color: #6ed69a;
 }
 
-a.color-special-categori,
-a.color-special-categori:visited,
-a.color-special-categori:active,
-a.color-special-categori:link {
+.color-special {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 0px;
+    padding-bottom: 20px;
+    margin: 0px;
+    border: none;
+    background-color: transparent;
+    color: #d42426;
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+div.color-special-categori {
     color: #d42426;
 }
 
@@ -3529,4 +3542,36 @@ div.flex-div-grid-special {
     #div-flex-one2 {
         display: none;
     }
+}
+
+.color-eat,
+.color-tech {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 0px;
+    padding-bottom: 20px;
+    margin: 0px;
+    border: none;
+    background-color: transparent;
+    color: #65a6bb;
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+div.color-eat-categori,
+div.color-tech-categori {
+    color: #65a6bb;
+}
+
+.text-div-a-class>a.eat-color-a-tag,
+.text-div-a-class>a.tech-color-a-tag {
+    background-color: #65a6bb;
+}
+
+div.flex-div-grid-eat,
+div.flex-div-grid-tech {
+    background-color: #65a6bb;
 }
