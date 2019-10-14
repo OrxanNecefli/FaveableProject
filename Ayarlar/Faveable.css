@@ -3631,3 +3631,31 @@ div.color-Entertainment-categori {
 div.flex-div-grid-Entertainment {
     background-color: #ff9169;
 }
+
+.color-motivation {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 0px;
+    padding-bottom: 20px;
+    margin: 0px;
+    border: none;
+    background-color: transparent;
+    color: #f5c53d;
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+div.color-motivation-categori {
+    color: #f5c53d;
+}
+
+.text-div-a-class>a.motivation-color-a-tag {
+    background-color: #f5c53d;
+}
+
+div.flex-div-grid-motivation {
+    background-color: #f5c53d;
+}
