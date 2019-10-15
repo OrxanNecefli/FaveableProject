@@ -3659,3 +3659,157 @@ div.color-motivation-categori {
 div.flex-div-grid-motivation {
     background-color: #f5c53d;
 }
+
+#fixed-menu-email {
+    display: block;
+    width: 320px;
+    height: 210px;
+    /* background-color: #4cd137; */
+    background-image: url(../Pictures/slider-small_qdt8ns.webp);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: 100%;
+    position: fixed;
+    color: #000;
+    overflow: hidden;
+    border: 5px solid rgba(0, 0, 0, .5);
+    border-radius: 5px;
+    bottom: 10px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    right: -330px;
+    z-index: 50;
+    webkit-box-shadow: -0.125em 0.5em 1em 0 rgba(0, 0, 0, .2);
+    box-shadow: -0.125em 0.5em 1em 0 rgba(0, 0, 0, .2);
+}
+
+.fixed-in-div {
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 0px;
+    padding-top: 15px;
+    margin: 0px;
+    margin: 0 5%;
+    position: relative;
+    width: 90%;
+    z-index: 4;
+}
+
+.fixed-in-div>h5 {
+    color: #1e70b9;
+    font-size: 20px;
+    margin: 0;
+    padding: 0px;
+    width: 66%;
+    clear: both;
+    font-weight: 500;
+    line-height: 1.25em;
+    text-rendering: optimizeLegibility;
+}
+
+.fixed-in-div>h6 {
+    clear: both;
+    line-height: 1.25em;
+    margin: 1em 0 .5em;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    font-size: 12px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.subscribe-form {
+    -webkit-tap-highlight-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17.5px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    color: black;
+    line-height: 1.5384615385;
+    box-sizing: inherit;
+    margin: 10px 0;
+    padding-right: 5em;
+}
+
+.subscribe-form .in input[type="email"] {
+    width: 100%;
+    background: #efefef;
+    border: 0;
+    border-radius: 25px;
+    padding: 0 0 0 20px;
+    box-shadow: none !important;
+    color: #757575;
+    display: block;
+    font-size: .8125rem;
+    line-height: 2.98;
+    margin: 2px 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.subscribe-form button {
+    width: 60px;
+    background-color: #3292d0;
+    border: 0;
+    float: right;
+    border-radius: 0 25px 25px 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    height: 20%;
+    margin: 0;
+    padding: 0 15px;
+    position: absolute;
+    right: 0;
+    left: 155px;
+    top: 102px;
+    text-transform: none;
+    overflow: visible;
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+.subscribe-form button:hover {
+    background-color: #1e70b9;
+}
+
+#close-fixed {
+    display: none;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 170px;
+    right: 25px;
+    color: #3292d0;
+    border: 5px solid #3292d0;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: 51;
+    background: rgba(255, 255, 255, .5);
+    cursor: pointer;
+    padding: 5px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+#close-fixed>.fa-times {
+    width: 20px;
+    height: 20px;
+}
+
+#close-fixed:hover {
+    background-color: #ddd;
+}
+
+#close-fixed:hover .fa-times {
+    color: #000;
+}

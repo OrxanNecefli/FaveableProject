@@ -236,3 +236,20 @@ function Timefunction8() {
         spantag8.style.display = "block"
     }, 1000)
 }
+// var body = document.getElementById("body-id")
+// body.onload = function() { FunctionFixed() }
+
+function FunctionFixed() {
+    setTimeout(function() {
+        $("#fixed-menu-email").animate({ 'right': '10px' });
+        $("#close-fixed").css({ 'display': 'block' });
+    }, 10000)
+}
+
+function FunctionClose() {
+    setTimeout(function() {
+        $('#fixed-menu-email').animate({ "right": '-320px' }, 300)
+        $('#close-fixed').css({ "display": 'none' })
+
+    }, 2000);
+}

@@ -34,7 +34,7 @@
     <link rel="stylesheet" href="file:///C:/Users/Admin/Downloads/fontawesome-free-5.11.2-web/css/all.min.css">
 </head>
 
-<body>
+<body onload="FunctionFixed()">
     <div class="colorprogress">
         <span></span>
         <span></span>
@@ -2895,6 +2895,25 @@
         </section>
         </div>
     </footer>
+    <div id="close-fixed" onclick="FunctionClose()">
+        <i class="fas fa-times"></i>
+    </div>
+    <div id="fixed-menu-email">
+        <div class="fixed-in-div">
+            <h5>Never make a dumb purchase again</h5>
+            <h6>Our tips in your mailbox:</h6>
+            <form class="subscribe-form" method="post" action="/v3/f/subscribe.php">
+                <div class="in">
+                    <input type="email" name="subscribe-email" id="slider-email" placeholder="your@email.com" required="" email="">
+                    <button><i class="fas fa-arrow-right"></i></button>
+                    <input type="hidden" name="method" value="e6fa1de82e">
+                </div>
+            </form>
+            <div class="text-join">
+                for access to exclusive free <br> content -- it's easy!
+            </div>
+        </div>
+    </div>
     <script src="Ayarlar/Faveable.js"></script>
 </body>
 
