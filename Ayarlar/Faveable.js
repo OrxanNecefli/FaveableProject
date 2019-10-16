@@ -21,7 +21,7 @@ function myFunction() {
 $(document).ready(function($) {
     var path = window.location.pathname.split("/").pop();
     if (path == '') {
-        path = 'men.html';
+        path = 'about.html';
     }
     var target = $('#NavUlLiid a[href="' + path + '"]');
     var current = document.getElementsByClassName("active");
@@ -48,6 +48,32 @@ $(document).ready(function() {
         $(".more-none-ul").css("display", "block");
         $(".more-none-click").css("display", "none");
     });
+
+    $('.search-input').focus(function() {
+        $('#focus-i-tag').css('color', '#4cd137');
+        $('.button-class-search').css('background-color', '#4cd137');
+        $(".div-none-class").css('display', 'none');
+        $(".div-none-class-img").css('display', 'none');
+        $(".search-div").css({
+            'text-align': 'center',
+            'width': '70%'
+        });
+    })
+    $('.search-input').blur(function() {
+        $('#focus-i-tag').css('color', '#3092d0');
+        $('.button-class-search').css('background-color', '#3092d0');
+        $('.div-none-class-img').css('display', 'block')
+        var maxwidth = window.matchMedia('(max-width: 992px)')
+        if (maxwidth.matches) {
+            $('.div-none-class').css('display', 'none')
+        } else {
+            $('.div-none-class').css('display', 'block')
+        }
+        $('.search-div').css({
+            'text-align': 'center',
+            'width': '170%'
+        })
+    })
 })
 
 var round = document.getElementById("border-half");
@@ -251,5 +277,5 @@ function FunctionClose() {
         $('#fixed-menu-email').animate({ "right": '-320px' }, 300)
         $('#close-fixed').css({ "display": 'none' })
 
-    }, 2000);
+    }, 1500);
 }
