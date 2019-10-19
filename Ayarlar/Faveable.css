@@ -4444,55 +4444,68 @@ p.signature {
     text-transform: uppercase;
 }
 
-.eric-color-e-c-s {
+.eric-color-e-c-s,
+.h3-color-eric {
     color: #85BB65;
 }
 
-.kara-color-e-c-s {
+.kara-color-e-c-s,
+.h3-color-kara {
     color: #BB6585;
 }
 
-.ben-color-e-c-s {
+.ben-color-e-c-s,
+.h3-color-ben {
     color: #65A6BB;
 }
 
-.missy-color-e-c-s {
+.missy-color-e-c-s,
+.h3-color-missy {
     color: #D42426;
 }
 
-.andrew-color-e-c-s {
+.andrew-color-e-c-s,
+.h3-color-andrew {
     color: #FF9900;
 }
 
-.angie-color-e-c-s {
+.angie-color-e-c-s,
+.h3-color-angie {
     color: #65A6BB;
 }
 
-.cherry-color-e-c-s {
+.cherry-color-e-c-s,
+.h3-color-cherry {
     color: #F5C53D;
 }
 
-.desh-color-e-c-s {
+.desh-color-e-c-s,
+.h3-color-desh {
     color: #DC3CB4;
 }
 
-.jenna-color-e-c-s {
+.jenna-color-e-c-s,
+.h3-color-jenna {
     color: #FF9169;
 }
 
-.katie-color-e-c-s {
+.katie-color-e-c-s,
+.h3-color-katie {
     color: #6ED69A;
 }
 
-.liz-color-e-c-s {
+.liz-color-e-c-s,
+.h3-color-liz {
     color: #65A6BB;
 }
 
-.marina-color-e-c-s {
+.marina-color-e-c-s,
+.h3-color-marina {
     color: #3292D0;
 }
 
-.suzanne-color-e-c-s {
+.suzanne-color-e-c-s,
+.h3-color-suzanne {
     color: #FF9900;
 }
 
@@ -5879,10 +5892,6 @@ label[for="Email"] {
     font-weight: 500;
 }
 
-.h3-color-name {
-    color: #85bb65;
-}
-
 .two-ul-link-class {
     display: flex;
     flex-flow: row;
@@ -5954,6 +5963,29 @@ label[for="Email"] {
     color: #8a9fad;
 }
 
+.section-likes {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 70%;
+    min-width: 70%;
+    height: auto;
+    padding: 15px;
+    margin: 15px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background: #fff;
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 17.5px;
+    font-weight: 400;
+    overflow: hidden;
+    -webkit-box-shadow: #222 0 4px 6px -6px;
+    box-shadow: #222 0 4px 6px -6px;
+}
+
 @media only screen and (max-width:768px) {
     .two-ul-link-class {
         display: flex;
@@ -5979,4 +6011,76 @@ label[for="Email"] {
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
     }
+    .section-likes {
+        width: 100%;
+        min-width: 100%;
+    }
+}
+
+.color-outdoors {
+    font-size: 30px;
+    color: #6ed69a;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.flex-item {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
+    margin: 0px;
+    border-top: 1px solid #ddd;
+    font-family: "Roboto", sans-serif;
+    font-size: 17.5px;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.flex-1 {
+    display: flex;
+    width: 25%;
+    min-width: 25%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    overflow: hidden;
+}
+
+.lazy {
+    border: 0;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    padding: 0 20px 0 0;
+}
+
+.flex-3 {
+    width: 75%;
+    min-width: 75%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.flex-3>h4>a {
+    text-decoration: none;
+    color: #1e70b9;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.flex-3>a {
+    text-decoration: none;
+    color: #1e70b9;
+    font-size: 17.5px;
+    font-weight: 400;
+}
+
+.flex-3>h4>a:hover,
+.flex-3>a:hover {
+    text-decoration: none;
+    color: #8a9fad;
 }
