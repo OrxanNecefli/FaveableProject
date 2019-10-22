@@ -15,6 +15,16 @@ function myFunction() {
         document.getElementById("myHeader").className = "";
         document.getElementById("select-div").className = "";
     }
+    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+        $(document).ready(function() {
+            $(".icon-fixed-ul").css('opacity', '1')
+        })
+    } else {
+        $(document).ready(function() {
+            $('.icon-fixed-ul').css('opacity', '0')
+        })
+
+    }
 }
 
 // active class yaradacam
@@ -73,6 +83,42 @@ $(document).ready(function() {
             'text-align': 'center',
             'width': '170%'
         })
+    });
+    $(".p-d-m").click(function() {
+        var pdm = document.getElementsByClassName("p-d-m")[0]
+        pdm.innerHTML = "<p class=\"class-jq\">Last updated: September 15, 2019</p>"
+        $(this).css('position', 'relative');
+        $(".six-absolute-div").css("max-height", "100%");
+        $(".two-div-all").css("height", "auto");
+        $(".p-d-m.p-d-m-t").css('height', 'auto')
+    })
+    $("#pros-click").click(function() {
+        $("#pros-id-all").css({
+            "display": "flex"
+        });
+        $('#cons-id-all').css({
+            "display": 'none'
+        })
+        $("#cons-click").css({
+            'color': '#ccc'
+        })
+        $(this).css({ "color": "#3292d0" });
+    });
+    $('#cons-click').click(function() {
+        $('#cons-id-all').css({
+            "display": 'flex'
+        });
+        $('#pros-id-all').css({
+            'display': 'none'
+        })
+        $("#pros-click").css({
+            'color': '#ccc'
+        })
+        $(this).css({ "color": '#e54d42' })
+    });
+    $(".show-more-class").click(function() {
+        $(".top-div-class-all").css("max-height", "initial");
+        $(this).hide()
     })
 })
 
