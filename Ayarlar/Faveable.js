@@ -119,6 +119,36 @@ $(document).ready(function() {
     $(".show-more-class").click(function() {
         $(".top-div-class-all").css("max-height", "initial");
         $(this).hide()
+    });
+    $(".icon-div-left").click(function() {
+        $(".arrow-bottom-div").css({
+            "width": "48px",
+            "height": "48px",
+            'color': "red",
+            "background-color": "#fff"
+        });
+        $(".votes").css({
+            'display': 'flex'
+        });
+        $(".subscribe-form-all").css({
+            'display': 'flex'
+        })
+        $("#grid-id-none").css("display", "flex");
+    });
+    $('.icon-div-right').click(function() {
+        $('.arrow-top-div').css({
+            'width': '48px',
+            'height': '48px',
+            'color': 'green',
+            'background-color': '#fff'
+        })
+        $('.votes').css({
+            'display': 'flex'
+        })
+        $('.subscribe-form-all').css({
+            'display': 'flex'
+        });
+        $('#grid-id-none').css('display', 'flex');
     })
 })
 
