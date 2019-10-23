@@ -148,7 +148,7 @@ $(document).ready(function() {
         $('.subscribe-form-all').css({
             'display': 'flex'
         });
-        $('#grid-id-none').css('display', 'flex');
+        $('#grid-id-none').css('display', 'block');
     })
 })
 
